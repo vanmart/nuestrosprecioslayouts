@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Nuestrospreciosv1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_intro">Bienvenidos :D</string>
+    <string name="texto_boton_intro">Entrar</string>
+    <string name="creditos_propaganda">*Todos los precios que quieras a la hora que quieras*</string>
+    <string name="title_activity_publicaciones">publicaciones</string>
+    <string name="slider">slider</string>
+    <string name="text">Nuestros precio$</string>
+    <string name="title_activity_login">login</string>
+    <string name="usuario">Nombre de Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="enviar">Enviar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="title_activity_lista_de_precios">ListaDePrecios</string>
+    <string name="envivo">Echar Un Vistazo</string>
+    <string name="title_activity_listanegociosimagenes">Negocios</string>
+    <string name="title_activity_gallery_view">Galeria de Negocios</string>
+
+</resources>

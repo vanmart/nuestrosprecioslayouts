@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/fondolista">
+
+  <LinearLayout 
+        android:id="@+id/contenedorlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+        
+        <ImageView 
+            android:id="@+id/imagenvande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vande"/>
+        
+        <EditText 
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/usuario"
+            android:background="@drawable/bordeverde"
+            android:gravity="center"/>
+       <EditText 
+           android:id="@+id/contrasena"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/contrasena"
+           android:background="@drawable/bordeverde"
+           android:gravity="center"
+           android:layout_marginTop="4dp"/>
+        
+        <LinearLayout 
+            android:id="@+id/contenedorbotoneslogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <Button 
+                android:id="@+id/btnenviar"
+                android:background="@drawable/enviar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button 
+                android:id="@+id/btncancelar"
+                android:background="@drawable/cancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                />
+            
+        </LinearLayout>
+        
+        
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>
